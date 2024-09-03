@@ -1,0 +1,136 @@
+.body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+  }
+  
+  .img {
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .box {
+    height: 500px;
+    width: 350px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    margin-top: 60px;
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
+    border: 1px hsl(0, 0%, 7%);
+  }
+  
+  .bttn {
+    margin-left: 35px;
+    margin-top: 35px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(47, 88%, 63%);
+    border: 1px solid hsl(47, 88%, 63%);
+    font-weight: 800;
+    border-radius: 5px;
+  }
+  
+  .text {
+    margin-left: 35px;
+    color: hsl(0, 0%, 42%);
+  }
+  
+  .head {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+    margin-left: 30px;
+  }
+  
+  .head:hover {
+    color: hsl(47, 88%, 63%);
+  }
+  
+  .avatar-container {
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+  }
+  
+  .ava {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .text-1 {
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    margin-left: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .img {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    .box {
+      width: 100%;
+      height: auto;
+      margin-top: 30px;
+    }
+  
+    .bttn {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    .text {
+      margin-left: 0;
+    }
+  
+    .head {
+      margin-left: 0;
+    }
+  
+    .avatar-container {
+      margin-left: 0;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .ava {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .text-1 {
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .box {
+      padding: 15px;
+      margin-top: 20px;
+    }
+  
+    .img {
+      width: 100%;
+      margin-top: 15px;
+    }
+  
+    .bttn {
+      margin-top: 15px;
+    }
+  
+    .text {
+      font-size: 14px;
+    }
+  
+    .head {
+      font-size: 18px;
+    }
+  
+    .text-1 {
+      font-size: 14px;
+    }
+  }
+  
