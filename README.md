@@ -34,8 +34,8 @@ Users should be able to view the card layout that adapts to different screen siz
 
 Include screenshots of your project here.
 
-![Desktop View](design/desktop-design.jpg)
-![Mobile View](design/mobile-design.jpg)
+![Desktop View](desktop-design.jpg)
+![Mobile View](mobile-design.jpg)
 
 ## Features
 * Responsive design that adapts to various screen sizes.
@@ -55,7 +55,7 @@ Open index.html in your browser to view the blog preview card. No additional set
 ## Code Structure
 * index.html: Main HTML file containing the structure of the blog preview card.
 * style.css: Contains all the styles for the card, including responsive design.
-* assets/: Folder containing images and other assets used in the project.
+
 
 ## Features and Improvements
 * Added responsive design for tablets and mobile devices.
